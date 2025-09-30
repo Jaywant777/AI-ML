@@ -1,0 +1,31 @@
+/* use # for id tag */
+#para1 {
+    background-color: green;
+}
+
+#para2 {
+    background-color: aqua;
+}
+
+/* use . for 'Class selector' */
+.color1  {
+    color: red;
+}
+
+/* universal selector use '*'   */
+/* * {
+    color: red;
+} */
+
+/* disended combinator. div  */
+div p {
+    background-color: rgb(212, 244, 9);
+}
+
+/* Next sibling combinator */
+h3+h4 {
+    color: blueviolet;
+
+}
+
+

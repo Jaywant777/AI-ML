@@ -1,0 +1,21 @@
+.txt1 {
+    /* To shift left to center to right */
+    text-align: center;
+
+    /* This thing is used to decorate text. */
+    text-decoration: line-through;
+
+
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.txt2 {
+    text-transform: capitalize;
+    /* text effect */
+    font-size: 30px;
+
+    text-shadow: 2px 3px 3px green;
+}

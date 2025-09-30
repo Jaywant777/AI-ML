@@ -1,0 +1,20 @@
+.cc {
+    /* rgb */
+    color: blue;
+    /* 0 to 255 */
+
+  
+}
+
+.cc2 {
+    /* hexa decimal */
+    color: #0bd02f;
+}
+
+.cc3 {
+    /* hue, 0 to 360*/
+    /* saturation, 0 to 100% */
+    /* lightness 0 to 100% */
+    color: hsl(66, 81%, 50%);
+}
+

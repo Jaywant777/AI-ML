@@ -1,0 +1,47 @@
+.freedom {
+    background-color: #212121;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+
+}
+
+
+ol {
+    list-style: upper-latin;
+    font-size: 20px;
+}
+
+
+
+/* This one is RGB rgb(255,0,0); */
+demo {
+    color: rgb(255, 0, 0);
+}
+
+
+
+.class_h2 {
+    color: red;
+    /* color: hsl(4, 87%, 51%)); */
+    /* color: hsl(hue, saturation, lightness) */
+    /* hue 0 to 360 */
+    /* saturation,lightness 0 to 100% */
+    /* alpha 0 to 1 use for transprency */
+    /* color: rgba(red, green, blue, alpha) */
+    /* hexa decimal [figma], color: #ff0000; */
+}
+
+
+.freedom {
+    text-align: center;
+
+    /* font-family: "Oswald", sans-serif; */
+    font-family: "Bitcount Ink", system-ui;
+    font-style: italic;
+    font-size: 50px;
+    /* font-weight: 100;
+    text-shadow: 2px 4px red; */
+}

@@ -1,0 +1,86 @@
+/* --- Add these new styles to your self2.css file --- */
+
+/* HAMBURGER BUTTON STYLES */
+.hamburger-btn {
+    position: fixed; /* Stays in place when you scroll */
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensures it's on top of other content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hamburger-btn span {
+    width: 100%;
+    height: 3px;
+    background-color: #34495e; /* Same color as the panel for consistency */
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Animation for the button turning into an 'X' */
+.hamburger-btn.is-active span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger-btn.is-active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-btn.is-active span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+
+/* PANEL VISIBILITY LOGIC */
+.left-panel {
+    flex-basis: 220px;
+    flex-shrink: 0;
+    background-color: #34495e;
+    min-height: 100vh;
+    padding: 20px 0;
+    transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1); /* Smoother transition */
+}
+
+/* This new class will hide the panel */
+.left-panel.is-hidden {
+    transform: translateX(-100%);
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    /* Add a transition to smoothly adjust its position if needed */
+    transition: margin-left 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Don't forget your existing styles for body, .container, links, etc. */
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+}
+
+.left-panel a {
+    display: block;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.left-panel a:hover {
+    background-color: #4e6a85;
+}
