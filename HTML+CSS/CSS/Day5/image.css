@@ -1,0 +1,52 @@
+.image {
+    /* for importing img with the help of css */
+
+    background-image: url("jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+    /*with img address */
+    width: 1920px;
+    height: 1080px;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    for no repetation of img
+}
+
+.doraemon {
+    /* parent class */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/053/034/non_2x/blue-cat-flying-with-his-gadget-in-the-sky-background-free-vector.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* all over page/screen cover karane ke liye */
+}
+
+.nobita {
+    /* child class */
+    height: 800px;
+    background-image: url(http://upload.wikimedia.org/wikipedia/en/3/3f/NobitaNobi.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /*for shifting img position */
+
+
+}
+
+/* FOR PARALEX EFFECT */
+
+.box {
+
+    background-color: rgb(101, 22, 3);
+    height: 600px;
+}
+
+.boximg {
+
+    background-attachment: fixed;
+    /* for taking paralex effect */
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+}
+
+/*  we can use (margin) for make a gafe of element with the border of screen */

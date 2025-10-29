@@ -1,0 +1,16 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "code-runner.executorMap": {
+        "c": "gcc \"$fullFileName\" -o \"$dir/$fileNameWithoutExt\" && \"$dir/$fileNameWithoutExt\"",
+        "cpp": "g++ \"$fullFileName\" -o \"$dir/$fileNameWithoutExt\" && \"$dir/$fileNameWithoutExt\"",
+        "java": "cd $dir && javac \"$fileName\" && java \"$fileNameWithoutExt\"",
+        "python": "python -u"
+    }
+}
+

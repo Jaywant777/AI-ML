@@ -1,0 +1,25 @@
+.body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.t1 {
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tri {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 7px;
+    
+  
+    
+
+}

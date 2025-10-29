@@ -1,0 +1,27 @@
+/* fr is available space , only used in grid */
+.layout {
+    display: grid;
+    grid-template-columns: 200px,1fr;
+    height: 800px;
+    grid-template-rows: 100px 1fr 200px;
+    grid-template-areas: "header header" "siderbar main" "footer footer";
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    background-color: red;
+}
+.siderbar {
+    grid-area: sidebar;
+    text-align: center;
+}
+
+.main {
+    grid-area: min;
+    background-color: aqua;
+    color: azure;
+
+
+}
+

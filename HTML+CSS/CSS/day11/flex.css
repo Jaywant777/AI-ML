@@ -1,0 +1,40 @@
+.tri {
+    justify-content: center;
+    background-color: ;
+    
+ 
+   
+}
+.item {
+    
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.container {
+    background-color: rgb(191, 200, 200);
+    width: 500px;
+    
+    
+    
+}
+
+.img1{
+    
+    
+}
+.img2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+    
+    
+
+}
+
+.unord {
+    margin-top: -10px;
+}

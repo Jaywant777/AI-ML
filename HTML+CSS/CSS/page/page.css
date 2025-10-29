@@ -1,0 +1,103 @@
+.bg {
+    display: 
+    justify-content: center;
+    align-content: center;
+
+
+    /* To set image. */
+    /* background-image: url(Page_bg.jpg); */
+
+    /* TO change height + width. */
+    /* width: 1500px; */
+    height: 0px;
+
+    /* To stop repeating image "mirror". */
+    background-repeat: no-repeat;
+
+    /* Make image in center ,right or left. */
+    background-position: center;
+
+
+}
+
+.exp {
+    /* background-color: blue;
+    font-size: 45px;
+    
+    align-items: center;
+    align-self: center; */
+
+    position: relative;
+    height: 100vh;
+    /* Full viewport height */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.highlight1 {
+    padding: 5px;
+    color: black;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 3%;
+}
+
+.highlight2 {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.para {
+
+    font-size: 1.9rem;
+    margin-bottom: 30px;
+
+    
+    max-width: 600px;
+    /* Prevents line from being too long */
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: rgb(31, 27, 27) 2px 2px;
+    
+
+}
+
+.button {
+    height: 65px;
+    width: 150px;
+    font-size: 20px;
+    background-color: black;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link {
+    line-height: 2.5;
+    color: brown;
+    /* background-color: rgb(52, 50, 50); */
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+
+
+.background {
+    /*paralex effect */
+    background-size: 100% 100%;
+    background-size: cover;
+
+    background-attachment: fixed;
+    height: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url(https://images4.alphacoders.com/685/685863.jpg);
+
+
+}

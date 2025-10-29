@@ -1,0 +1,65 @@
+body {
+     padding: 0vh;
+     margin: 0;
+}
+.head {
+    height: 40px;
+    background-color: rgb(42, 187, 139);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.link ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.content1  h1{
+    font-size: 60px;
+
+}
+
+.content1 p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.button {
+       text-align: center; 
+       font-size: 30px;
+       height: 30px;
+       width: 200px;
+       padding: 10px;
+       background-color: rgb(4, 187, 126);
+       border-radius: 10px;
+}
+.button a{
+    color: azure;
+    text-decoration: none
+}
+ 
+
+
+.img {
+    background-image: url(https://thumbs.dreamstime.com/b/fast-food-concept-greasy-fried-restaurant-take-out-as-onion-rings-burger-hot-dogs-fried-chicken-french-fries-31114163.jpg);
+    height: 530px;
+    width: 400px;
+  
+   
+     border-radius: 20px;
+  border-top-left-radius: 200px;
+    
+    margin-left: 50px;
+    
+
+
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+   
+}

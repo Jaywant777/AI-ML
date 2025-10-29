@@ -1,0 +1,17 @@
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    gap: 10px;
+    background-color: aqua;
+    grid-template-rows: 200px 200px 200px;
+    
+}
+
+.box {
+    background-color: brown;
+    border-radius: 10px;
+    background-image: url(https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3);
+    background-size: contain; 
+    /* is used to full the image  */
+
+} */

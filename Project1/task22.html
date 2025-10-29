@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Box</title>
+  <style>
+    /* Make the main container fill the full screen and use flexbox */
+    .main1 {
+      height: 100vh; /* full screen height */
+      display: flex;
+      justify-content: center; /* center horizontally */
+      align-items: center; /* center vertically */
+      background-color: #f0f0f0; /* optional: just for visibility */
+      text-align: center;
+    }
+
+    /* The green box */
+    .cy {
+      height: 200px;
+      width: 200px;
+      background-color: green;
+      color: white;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="main1">
+    <div class="cy">
+      CYBROM
+    </div>
+  </div>
+</body>
+</html>
