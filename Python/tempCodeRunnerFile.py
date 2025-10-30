@@ -1,2 +1,2 @@
-s='THIS IS PYTHON'
-# print(s.index('P',9))
+s='python'
+print(s.index('t',)
